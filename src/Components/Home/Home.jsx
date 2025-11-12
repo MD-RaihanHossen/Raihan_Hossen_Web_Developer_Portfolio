@@ -2,6 +2,9 @@ import SocialIcons from "./SocialIcons";
 import BannerData from "./BannerData";
 import ProfileImage from "./ProfileImage";
 import ScroolDown from "./ScroolDown.";
+import About from "../About/About";
+import Skills from "../Skills/Skills";
+import Services from "../Services/Services";
 
 const Home = () => {
     return (
@@ -22,10 +25,19 @@ const Home = () => {
 
             </section>
 
-            <section>
-                {/* SCROLL DOWN */}
+            <section className="max-w-7xl mx-auto px-6 md:px-12">
+            {/* SCROLL DOWN */}
             <ScroolDown></ScroolDown>
             </section>
+
+            {/*this is my about section*/}
+            <About></About>
+            
+             {/*this is my skills section*/}
+            <Skills></Skills>
+
+            {/*this is my Services section*/}
+            <Services></Services>
 
         </div>
     );

@@ -4,14 +4,14 @@ import handIcon from "../../assets/icons/hand.svg";
 import sendIcon from "../../assets/icons/send.svg";
 
 const BannerData = () => {
-  const texts = ["Say Hello 👋", "Download Resume 📄", "View Projects 💻", "Let's Talk 🤝"];
+  const texts = ["Say Hello 👋", "View Projects 💻", "Let's Talk 🤝"];
   const [index, setIndex] = useState(0);
 
   // useAnimation gives you manual control over motion animations
   const controls = useAnimation();
 
 
- useEffect(() => {
+  useEffect(() => {
     const waveSequence = async () => {
       while (true) {
         // 👋 Step 1: Wave + grow slightly larger
@@ -45,13 +45,8 @@ const BannerData = () => {
   const handleClick = () => {
     const currentText = texts[index];
 
-    if (currentText.includes("Download Resume")) {
-      //Trigger resume download
-      const link = document.createElement("a");
-      link.href = "/resume-raihan.pdf"; //File inside /public
-      link.download = "Raihan-Hossen-Resume.pdf"; //Optional custom name
-      link.click();
-    } else if (currentText.includes("Say Hello")) {
+
+    if (currentText.includes("Say Hello")) {
       window.open("https://wa.me/8801787227342?text=Hi%20Raihan!%20I%20saw%20your%20portfolio%20and%20want%20to%20connect.", "_blank"); //change this to your real email
     } else if (currentText.includes("View Projects")) {
       window.open("#projects", "_self"); // scroll to your projects section
@@ -61,7 +56,7 @@ const BannerData = () => {
   };
 
   return (
-    <div className="flex-1 max-w-lg text-center md:text-left space-y-6 md:space-y-8 md:ml-24 lg:ml-36">
+    <div className="flex-1 max-w-lg text-center md:text-left space-y-6 md:space-y-8  lg:ml-36">
       {/* Heading */}
       <div>
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-700 flex items-center justify-center md:justify-start gap-3">
