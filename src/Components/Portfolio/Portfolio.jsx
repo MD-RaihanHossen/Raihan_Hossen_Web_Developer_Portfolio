@@ -59,13 +59,13 @@ const Portfolio = () => {
       className="w-full flex flex-col items-center justify-center py-16 px-6 md:px-12 lg:px-20 pt-20 pb-10 md:py-28 md:pb-18 text-gray-700"
     >
       {/* === SECTION TITLE === */}
-      <h2 className="text-3xl font-bold mb-2" data-aos="fade-up">Portfolio</h2>
-      <p className="text-gray-500 mb-10" data-aos="fade-up" data-aos-delay="100">
+      <h2 className="text-3xl font-bold mb-2" >Portfolio</h2>
+      <p className="text-gray-500 mb-10">
         Most recent work
       </p>
 
       {/* === FILTER BUTTONS === */}
-      <div className="flex items-center justify-center gap-4 mb-10 flex-wrap" data-aos="fade-up" data-aos-delay="200">
+      <div className="flex items-center justify-center gap-4 mb-10 flex-wrap" >
         {["All", "Web", "Design"].map((cat) => (
           <button
             key={cat}

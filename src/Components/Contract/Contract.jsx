@@ -114,8 +114,6 @@ const Contact = () => {
           ref={formRef}
           onSubmit={sendEmail}
           className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 flex flex-col gap-5"
-          data-aos="fade-left"
-          data-aos-delay="100"
         >
           <div>
             <label className="block text-sm text-gray-600 mb-1">Name</label>

@@ -51,8 +51,8 @@ const Testimonial = () => {
       className="w-full flex flex-col items-center justify-center py-16 px-6 md:px-12 lg:px-20 text-gray-700"
     >
       {/* === SECTION TITLE === */}
-      <h2 className="text-3xl font-bold mb-2" data-aos="fade-up">Testimonial</h2>
-      <p className="text-gray-500 mb-12" data-aos="fade-up" data-aos-delay="100">
+      <h2 className="text-3xl font-bold mb-2" >Testimonial</h2>
+      <p className="text-gray-500 mb-12"  >
         What people are saying
       </p>
 

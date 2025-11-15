@@ -13,7 +13,7 @@ const About = () => {
             className="w-full flex flex-col md:flex-row items-center justify-center gap-10 py-16 px-6 md:px-12 lg:px-20 pt-20 pb-10  md:py-28 md:pb-18  text-gray-700"
         >
             {/* LEFT SIDE - IMAGE */}
-            <div data-aos="fade-right" className="md:w-1/3 w-64">
+            <div className="md:w-1/3 w-64">
                 <img
                     src={profileImg}
                     alt="About"
@@ -23,7 +23,7 @@ const About = () => {
 
             {/* RIGHT SIDE - CONTENT */}
             <div
-                data-aos="fade-left"
+
                 className="md:w-2/3 flex flex-col items-start text-left max-w-xl"
             >
                 <h2 className="text-3xl font-bold mb-2">About Me</h2>

@@ -12,8 +12,8 @@ const Qualification = () => {
       className="w-full flex flex-col items-center justify-center py-16 px-6 md:px-12 lg:px-20 text-gray-700"
     >
       {/* === SECTION TITLE === */}
-      <h2 className="text-3xl font-bold mb-2" data-aos="fade-up">Qualification</h2>
-      <p className="text-gray-500 mb-12" data-aos="fade-up" data-aos-delay="100">My personal journey</p>
+      <h2 className="text-3xl font-bold mb-2" >Qualification</h2>
+      <p className="text-gray-500 mb-12" >My personal journey</p>
 
       {/* === TABS === */}
       <div className="flex items-center justify-center gap-8 mb-12">
@@ -24,7 +24,7 @@ const Qualification = () => {
               ? "text-indigo-600"
               : "text-gray-500 hover:text-indigo-600"
           }`}
-          data-aos="fade-right" // Add animation to the Education tab
+           // Add animation to the Education tab
         >
           <FaGraduationCap />
           Education
@@ -37,7 +37,7 @@ const Qualification = () => {
               ? "text-indigo-600"
               : "text-gray-500 hover:text-indigo-600"
           }`}
-          data-aos="fade-left" // Add animation to the Experience tab
+          
         >
           <FaBriefcase />
           Experience
@@ -47,12 +47,12 @@ const Qualification = () => {
       {/* === TIMELINE === */}
       <div className="relative max-w-3xl w-full">
         {/* vertical line */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-[2px] bg-gray-300"></div>
+        <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-300"></div>
 
         {activeTab === "education" && (
           <div className="flex flex-col gap-10">
             {/* --- ITEM 1 --- */}
-            <div className="flex justify-between items-center w-full" data-aos="fade-up" data-aos-delay="200">
+            <div className="flex justify-between items-center w-full">
               <div className="w-1/2 text-right pr-8">
                 <h3 className="font-semibold text-lg">Web Development Course</h3>
                 <p className="text-gray-500">Programming Hero - Online</p>
@@ -65,7 +65,7 @@ const Qualification = () => {
             </div>
 
             {/* --- ITEM 2 --- */}
-            <div className="flex justify-between items-center w-full" data-aos="fade-up" data-aos-delay="300">
+            <div className="flex justify-between items-center w-full" >
               <div className="w-1/2"></div>
               <div className="w-4 h-4 bg-indigo-600 rounded-full"></div>
               <div className="w-1/2 pl-8">
@@ -82,7 +82,7 @@ const Qualification = () => {
         {activeTab === "experience" && (
           <div className="flex flex-col gap-10">
             {/* --- ITEM 1 --- */}
-            <div className="flex justify-between items-center w-full" data-aos="fade-up" data-aos-delay="200">
+            <div className="flex justify-between items-center w-full">
               <div className="w-1/2 text-right pr-8">
                 <h3 className="font-semibold text-lg">Frontend Developer</h3>
                 <p className="text-gray-500">Personal Projects</p>
@@ -95,7 +95,7 @@ const Qualification = () => {
             </div>
 
             {/* --- ITEM 2 --- */}
-            <div className="flex justify-between items-center w-full" data-aos="fade-up" data-aos-delay="300">
+            <div className="flex justify-between items-center w-full">
               <div className="w-1/2"></div>
               <div className="w-4 h-4 bg-indigo-600 rounded-full"></div>
               <div className="w-1/2 pl-8">

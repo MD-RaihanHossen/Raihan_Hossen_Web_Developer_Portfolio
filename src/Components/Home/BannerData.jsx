@@ -59,7 +59,7 @@ const BannerData = () => {
   };
 
   return (
-    <div data-aos="fade-up" className="flex-1 max-w-lg text-center md:text-left space-y-6 md:space-y-8 lg:ml-36">
+    <div  className="flex-1 max-w-lg text-center md:text-left space-y-6 md:space-y-8 lg:ml-36">
       {/* === Heading === */}
       <div>
         <h1 className="text-3xl md:text-4xl lg:text-3xl xl:text-5xl font-extrabold text-gray-700 flex items-center justify-center md:justify-start gap-3">

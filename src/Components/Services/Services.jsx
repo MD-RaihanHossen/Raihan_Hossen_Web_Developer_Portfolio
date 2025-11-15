@@ -39,16 +39,15 @@ const Services = () => {
       id="services"
       className="max-w-7xl mx-auto flex flex-col items-center justify-center py-16 px-6 md:px-12 lg:px-20 pt-20 pb-10 md:py-28 md:pb-18 text-gray-700"
     >
-      <h2 className="text-3xl font-bold mb-2" data-aos="fade-up">Services</h2>
-      <p className="text-gray-500 mb-12" data-aos="fade-up" data-aos-delay="100">What I Offer</p>
+      <h2 className="text-3xl font-bold mb-2" >Services</h2>
+      <p className="text-gray-500 mb-12" >What I Offer</p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl w-full">
         {/* === CARD 1 === */}
         <div
           ref={(el) => (cardRefs.current[1] = el)}
           className="relative bg-white shadow-md rounded-2xl p-8 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 overflow-hidden h-[350px]"
-          data-aos="zoom-in"
-          data-aos-delay="200"
+         
         >
           <FiMonitor className="text-4xl text-indigo-600 mb-4" />
           <h3 className="text-xl font-semibold mb-2">Frontend Development</h3>
@@ -86,8 +85,6 @@ const Services = () => {
         <div
           ref={(el) => (cardRefs.current[2] = el)}
           className="relative bg-white shadow-md rounded-2xl p-8 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 overflow-hidden h-[350px]"
-          data-aos="zoom-in"
-          data-aos-delay="300"
         >
           <LuLayoutDashboard className="text-4xl text-indigo-600 mb-4" />
           <h3 className="text-xl font-semibold mb-2">UI / UX Implementation</h3>
@@ -125,8 +122,6 @@ const Services = () => {
         <div
           ref={(el) => (cardRefs.current[3] = el)}
           className="relative bg-white shadow-md rounded-2xl p-8 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 overflow-hidden h-[350px]"
-          data-aos="zoom-in"
-          data-aos-delay="400"
         >
           <BsDatabase className="text-4xl text-indigo-600 mb-4" />
           <h3 className="text-xl font-semibold mb-2">Backend Integration</h3>
