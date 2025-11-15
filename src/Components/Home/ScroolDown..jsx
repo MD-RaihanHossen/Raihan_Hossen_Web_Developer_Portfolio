@@ -3,7 +3,7 @@ import scrollIcon from "../../assets/icons/scroll.svg";
 
 const ScroolDown = () => {
     return (
-        < div data-aos="fade-right" className=" hidden md:flex lg:ml-62 " >
+        < div className=" md:flex " >
             <div className="flex items-center justify-center gap-4">
                 <div>
                     <img src={scrollIcon} alt="scroll down" className="w-5 h-5 md:w-6 md:h-6 lg:-10 lg:h-10 " />    

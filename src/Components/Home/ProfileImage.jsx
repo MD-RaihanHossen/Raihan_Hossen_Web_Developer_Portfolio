@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
-import profileImg from "../../assets/Images/profileImg.jpg";
+import profileImg2 from "../../assets/Images/profileImg2.jpg";
 
 const ProfileImage = () => {
     return (
-        <div className="relative mt-14 md:mt-0 flex justify-center md:justify-end flex-1">
+        <div className="relative mt-14 mb-12 md:mt-0 flex justify-center md:justify-end flex-1 ">
             <motion.div
                 className="relative w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 
                                 bg-cover bg-center shadow-inner border-5 border-gray-700 "
                 style={{
-                    backgroundImage: `url(${profileImg})`,
+                    backgroundImage: `url(${profileImg2})`,
                 }}
                 animate={{
                     borderRadius: [

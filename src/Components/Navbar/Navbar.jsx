@@ -17,22 +17,22 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm transition-all duration-300">
-      <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-10 lg:px-20 h-16 ">
+    <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm transition-all duration-300 ">
+      <nav className=" max-w-screen-2xl mx-auto flex items-center justify-between px-6 h-16 ">
         {/* ===== Logo Section ===== */}
         <NavLink to="/" className="text-2xl font-extrabold tracking-tight text-gray-700">
           Hossen
         </NavLink>
 
         {/* ===== Desktop Navigation ===== */}
-        <ul className="hidden md:flex items-center space-x-8 text-gray-600 font-medium">
+        <ul className="hidden md:flex items-center space-x-8 text-gray-700 font-medium">
           {navItems.map((item, index) => (
             <li key={index}>
               <NavLink
                 to={item.link}
                 className={({ isActive }) =>
                   `transition-colors duration-200 ${
-                    isActive ? "text-black font-semibold" : "hover:text-black"
+                    isActive ? "text-indigo-600 font-semibold" : "hover:text-indigo-600"
                   }`
                 }
               >

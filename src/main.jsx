@@ -1,19 +1,18 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
 import { RouterProvider } from 'react-router-dom'
 import Router from './Router/Router.jsx'
-import Aos from 'aos'
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 
- Aos.init();
+AOS.init()
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={Router}>
-    <App />
     </RouterProvider>
   </StrictMode>,
 )

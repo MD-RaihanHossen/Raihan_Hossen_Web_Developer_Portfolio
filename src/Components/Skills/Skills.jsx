@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="w-full flex flex-col items-center justify-center py-16 px-6 md:px-12 lg:px-20 text-gray-700"
+      className="w-full flex flex-col items-center justify-center py-16 px-6 md:px-12 lg:px-20 pt-20 pb-10  md:py-28 md:pb-18 text-gray-700"
     >
       {/* === SECTION TITLE === */}
       <h2 className="text-3xl font-bold mb-2">Skills</h2>
