@@ -37,7 +37,7 @@ const Navbar = () => {
           Hossain
         </NavLink>
 
-        {/* Desktop Menu (Keep Old AOS Version) */}
+        {/* Desktop Menu =(Keep Old AOS Version)= */}
         <ul className="hidden md:flex items-center space-x-8 text-gray-700 font-medium">
           {navItems.map((item, i) => (
             <li key={i} data-aos="fade-down" data-aos-delay={i * 100}>
