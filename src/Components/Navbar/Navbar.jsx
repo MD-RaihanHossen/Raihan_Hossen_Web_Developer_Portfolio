@@ -34,7 +34,7 @@ const Navbar = () => {
         
         {/* Logo */}
         <NavLink to="/" className="text-2xl font-extrabold tracking-tight text-gray-700">
-          Hossen
+          Hossain
         </NavLink>
 
         {/* Desktop Menu (Keep Old AOS Version) */}

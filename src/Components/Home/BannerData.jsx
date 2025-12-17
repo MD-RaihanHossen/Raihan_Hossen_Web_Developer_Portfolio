@@ -63,7 +63,7 @@ const BannerData = () => {
       {/* === Heading === */}
       <div>
         <h1 className="text-3xl md:text-4xl lg:text-3xl xl:text-5xl font-extrabold text-gray-700 flex items-center justify-center md:justify-start gap-3">
-          Raihan Hossen
+          Raihan Hossain
           <motion.img
             src={handIcon}
             alt="hand"
